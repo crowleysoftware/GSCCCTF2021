@@ -23,12 +23,12 @@ Hopefully you will come to the conclusion that the value is a hash. But which ty
 
 Going one-by-one you can hash each flag and see if it matches the challenge. The one that matches is the flag we are looking for. Better yet, write a utility to loop over each one. Here's a PowerShell script to get you started:
 
-`$hasher = [System.Security.Cryptography.HashAlgorithm]::Create("sha256")
+````$hasher = [System.Security.Cryptography.HashAlgorithm]::Create("sha256")
 $hash = $hasher.ComputeHash([System.Text.Encoding]::UTF8.GetBytes("salad-acrid-lower-clasp-exams"))
 
 $hashString = [System.BitConverter]::ToString($hash)
 $final = $hashString.Replace("-", "")
 
-$final`
+$final````
 
 Of course you can always brute force the system by trying to submit each flag until it works. This is a valid, if not tedious strategy and it demonstrates the importance of rate limits and retry restrictions.
