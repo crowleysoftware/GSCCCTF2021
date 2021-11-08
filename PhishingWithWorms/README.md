@@ -6,7 +6,7 @@
 
 This challenge doesn't give you much to go on. As a malicious actor might do, you are expected to poke and prod every corner of the website to see if there is anything interesting exposed. If you click "BookClub" in the menu bar you are presented with an index of folders:
 
-![](bookclubfolders.png)
+![](bookclubfolders.PNG)
 
 Inspecting the **App_Data** folder, you find a **Logs.txt** file.
 
