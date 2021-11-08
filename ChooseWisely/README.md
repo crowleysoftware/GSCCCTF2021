@@ -29,6 +29,8 @@ $hash = $hasher.ComputeHash([System.Text.Encoding]::UTF8.GetBytes("salad-acrid-l
 $hashString = [System.BitConverter]::ToString($hash)
 $final = $hashString.Replace("-", "")
 
-$final````
+$final
+````
+
 
 Of course you can always brute force the system by trying to submit each flag until it works. This is a valid, if not tedious strategy and it demonstrates the importance of rate limits and retry restrictions.
