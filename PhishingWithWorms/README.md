@@ -1,5 +1,5 @@
 
-# Phihing with (Book)Worms
+# Phishing with (Book)Worms
 
 ### Challenge
 > Send a phishing email to Book Club user BookWorm with subject: The best winter reads are here!
