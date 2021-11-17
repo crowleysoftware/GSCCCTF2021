@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{B9A99A1A-4EB9-44EB-9310-99853084C7DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A99A1A-4EB9-44EB-9310-99853084C7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A99A1A-4EB9-44EB-9310-99853084C7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A99A1A-4EB9-44EB-9310-99853084C7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A99A1A-4EB9-44EB-9310-99853084C7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD5FDA95-8482-40DA-A10B-3FAC98118CD0}
+	EndGlobalSection
+EndGlobal
