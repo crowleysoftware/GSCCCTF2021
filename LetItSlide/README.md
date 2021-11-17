@@ -5,7 +5,7 @@
 
 The link provided takes you to this page: https://gsccctf.azurewebsites.net/LetItSlide.html  
 
-This is a variation of a Caesar cipher (See [Friends, Romans, Hackers](../FriendsRomans)) know as the Vigenère Cipher. But instead of each letter using the same offset, each letter has a different offset. The offset is denoted by the key "CODECAMP". For each letter in the key you shift the encoded letter by the same amount. If the key is shorter than the message you simply start over at the start of the key.  
+This is a variation of a Caesar cipher (See [Friends, Romans, Hackers](../FriendsRomans)) known as the Vigenère Cipher. But instead of each letter using the same offset, each letter has a different offset. The offset is denoted by the key "CODECAMP". For each letter in the key you shift the encoded letter by the same amount. If the key is shorter than the message you simply start over at the start of the key.  
 
 If you drag the gray bar so that "C" is under "A" and look at the letter that appears above "p", you get the decoded value of "N".  
 
