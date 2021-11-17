@@ -89,7 +89,7 @@ static string Decode(string clearText, int offset)
                 char n = isupper ? char.ToUpper(alphabet[idx - offset]) : alphabet[idx - offset];
                 cipher.Append(n);
             }
-            else //offset of current letter wraps back to front of alphabet
+            else //offset of current letter wraps back the end of alphabet
             {
                 char n = isupper ? char.ToUpper(alphabet[26 - (offset - idx)]) : alphabet[26 - (offset - idx)];
                 cipher.Append(n);
