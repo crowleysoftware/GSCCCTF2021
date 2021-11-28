@@ -1,1 +1,2 @@
-come back soon
+
+[See the community contributed solution](../RobertBoedigheimer/BackgroundCheck). Thanks @boedie!
