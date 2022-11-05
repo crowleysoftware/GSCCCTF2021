@@ -1,7 +1,5 @@
 # Welcome Challenge
 
-This write up is for both of the "Cert-ainly" challenges:
-
 ### Challenge
 > ZW5qb3ktZ3Jhbml0ZS1zdGF0ZS1jb2RlLWNhbXAtY3RmIQ==
 
